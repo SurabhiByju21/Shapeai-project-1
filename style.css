@@ -1,0 +1,451 @@
+* { /* Override the default browser spacing */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #ebf2ff;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 42, 42);
+    z-index: 9999;
+    min-width: 100%;
+    height: 40px;
+}
+
+.navbar_brand {
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav_green_items_left {
+    padding-left: 30px;
+}
+
+.playstore {
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.appstore {
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+/* .nav_items_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.button__primary {
+    background-color: rgb(44, 42, 42); 
+    /* margin: 10px; */
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 8px black;
+    /* border-radius: 4px; */
+    display: block;
+}
+
+.navbar_green {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f974d;
+    z-index: 9999;
+    width: 100%;
+    height: 40px; 
+}
+
+.brand_logo {
+    align-items: center;
+    /* padding-top: 20px; */
+    width: 100%;
+    height: 150px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+/* .container {
+   width: 100%;
+   height: 350px;
+} */
+
+.video_footage {
+    width: 100%;
+    height: 350px;
+}
+
+.myVideo {
+    width: 375px;
+    height: auto;
+}
+
+.container_quote {
+    align-items: center;
+    padding-top: 10px;
+}
+
+.button__sec {
+    background-color: #0f974d; 
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 4px;
+    display: block;
+    /* margin-left: 200px; */
+    width: 150px;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+
+/* .menu_item_veg_img {
+    width: 100%;
+    align-items: center;
+} */
+
+.food_list_container {
+    position: relative;
+    margin: 2rem 0;
+    background-color: pink;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.food_menu_card_list {
+    border-radius:6px 6px 0 0 ;
+    width: 100%;
+}
+
+.food_menu_card_details {
+    padding: 0.5rem;
+    text-align: left;
+    color: black;
+}
+
+.food_menu_card_title {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    color: blueviolet;
+    font-weight: 900;
+}
+
+.food_menu_card_image {
+    width: 100%;
+    align-items: center;
+}
+
+.text_x2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.create {
+    width: 100%;
+    height: 350px;
+}
+
+.create_pizza_img {
+    width: 350px;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+
+}
+
+.create_pizza {
+    align-items: center;
+    padding-top: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem 1rem 0 0;
+    background-color: black;
+    width: 375px;
+    height: 320px;
+}  
+
+.form {
+    width: 375px;
+    height: 200px;
+    background-color: black;
+}
+
+.text_news {
+    color: white;
+    font-weight: 400;
+    padding-left: 135px;
+    padding-top: 20px;
+}
+
+#email {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#submit {
+    background-color: #0f974d;
+    text-align: center;
+    transition: 0.5s;
+    font-weight: 600;
+    color: white;
+    border-radius: 4px;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.copyright {
+    width: 375px;
+    height: 100px;
+    background-color: #1c1c1c;
+}
+
+.button__btn {
+    background-color: #0f974d; 
+    margin: 10px;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    transition: 0.5s;
+    font-weight: 500;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 4px;
+    display: block;
+    /* margin-left: 200px; */
+    width: 120px;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 15px;
+    /* margin-left: 600px; */
+}
+
+
+@media (min-width: 1200px) {
+
+    .navbar {
+        padding: 0 3rem;
+    }
+    .navbar_green {
+        padding: 0 3rem;
+        height: 50px;
+    }
+
+    .brand_logo {
+        height: 330px;
+        width: 330px;
+        padding-top: 100px;
+        padding-left: 500px;
+    }
+    
+    .video_footage {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .myVideo {
+        width: 100%;
+        height: auto;
+    }
+    
+    .container {
+        position: relative;
+    }
+
+    .container_quote {
+        position: absolute;
+        right: auto;
+        left: auto;
+        /* align-items: center; */
+        color: white;
+        padding-left: 350px;
+        z-index: 2;
+        top: 200px;
+        bottom: 250px;
+        font-size: 30px;
+    }
+    
+    .button__sec {
+        background-color: #0f974d; 
+        margin: 10px;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        transition: 0.5s;
+        font-weight: 600;
+        background-size: 200% auto;
+        color: white;
+        border-radius: 4px;
+        display: block;
+        margin-left: 180px;
+        width: 200px;
+        margin-top: 20px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .food__list__container {
+        position: relative;
+        margin: 5rem 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+
+    .food_list_container_box {
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -3;
+    }
+    .food_menu_card_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+    }
+    .food_menu_card {
+        flex-basis: 30%;
+        background-color: #fff;
+        border-radius: 6px;
+    }
+    .food_menu_card_move_up {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+    .create {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .create_pizza_img {
+        padding-right: 100px;
+        padding-left: 100px;
+        width: 100%;
+        height: 400px;
+        border-radius: 30px;
+    }
+    
+    .create {
+        position: relative;
+    }
+
+    .create_pizza {
+        position: absolute;
+        right: auto;
+        left: auto;
+        /* align-items: center; */
+        color: white;
+        padding-left: 350px;
+        z-index: 2;
+        top: 200px;
+        bottom: 250px;
+        font-size: 30px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem 1rem 0 0;
+        background-color: black;
+        width: 375px;
+        height: 320px;
+    }  
+    
+    .form {
+        width: 100%;
+        height: 200px;
+        background-color: black;
+    }
+    
+    .text_news {
+        color: white;
+        font-weight: 600;
+        padding-left: 550px;
+        padding-top: 20px;
+    }
+    
+    #email {
+        margin-left: 450px;
+        margin-top: 20px;
+        height: 30px;
+        width: 250px;
+    }
+    
+    #submit {
+        background-color: #0f974d;
+        text-align: center;
+        transition: 0.5s;
+        font-weight: 600;
+        color: white;
+        border-radius: 4px;
+        width: 150px;
+        height: 35px;
+        font-size: 15px;
+    }
+    
+    .copyright {
+        width: 100%;
+        height: 100px;
+        background-color: #1c1c1c;
+        text-align: center;
+    }
+    .button__btn {
+        background-color: #0f974d; 
+        margin: 10px;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        transition: 0.5s;
+        font-weight: 600;
+        background-size: 200% auto;
+        color: white;
+        border-radius: 4px;
+        display: block;
+        /* margin-left: 200px; */
+        width: 180px;
+        margin-top: 20px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 550px;
+    }
+    
+}
